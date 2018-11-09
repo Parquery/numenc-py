@@ -500,7 +500,7 @@ static PyObject* from_uint64(PyObject* self, PyObject* args) {
     }
 
     unsigned long long input = PyLong_AsUnsignedLongLong(input_obj);
-    if (input == -1 && PyErr_Occurred()) {
+    if (PyErr_Occurred()) {
         PyErr_Clear();
         return PyErr_Format(PyExc_TypeError,
             "Wrong input: expected unsigned 64-bit integer.");
