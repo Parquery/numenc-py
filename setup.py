@@ -52,6 +52,7 @@ setup(
     ext_modules=[
         Extension('numenc', sources=['numenc-cpp/encoder_decoder.cpp'])
     ],
-    py_modules=['pynumenc', 'pynumenc_meta'],
+    scripts=['bin/pynumenc'],
+    py_modules=['pynumenc_meta'],
     package_data={'pynumenc': ['py.typed']},
     data_files=[('.', ['LICENSE.txt', 'README.rst'])])
