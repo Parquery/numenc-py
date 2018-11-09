@@ -65,6 +65,7 @@ instance/
 
 # Sphinx documentation
 docs/_build/
+docs/build/
 
 # PyBuilder
 target/
@@ -84,11 +85,14 @@ celerybeat-schedule
 # Environments
 .env
 .venv
+.venv3
 env/
 venv/
+venv3/
 ENV/
 env.bak/
 venv.bak/
+venv3.bak/
 
 # Spyder project settings
 .spyderproject
@@ -102,3 +106,8 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# other
+.idea
+.precommit_hashes
+tests/.hypothesis
