@@ -1,6 +1,6 @@
 """Define meta information about numenc package."""
 
-__title__ = 'numenc'
+__title__ = 'pynumenc'
 __description__ = 'Convert numbers to/from sortable bytes'
 __url__ = 'https://github.com/Parquery/numenc-py'
 __version__ = '1.0.0'
